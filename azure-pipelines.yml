@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '0d08cde2-c423-4c39-9808-179981601ffe'
   imageRepository: 'rajanidockerpipeline'
-  containerRegistry: 'mydevops.azurecr.io'
+  containerRegistry: 'devopsmonk.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
